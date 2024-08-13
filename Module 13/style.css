@@ -28,7 +28,7 @@ td,th{
     border: 1px solid green;
     padding: 15px;
 }
-div{
+.text{
     overflow: scroll;
     background-color: #e495e4;
     width: 400px;
