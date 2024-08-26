@@ -39,6 +39,8 @@ console.log(s1)
 console.log(s2)
 
 
+
+
 var places = ["London", "Paris", "New York", "Berlin"]
 var [first, second] = places
 
