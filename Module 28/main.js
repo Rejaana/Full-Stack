@@ -26,7 +26,7 @@ document.getElementById('rez4').innerHTML = regex.test(text4)
 
 
 var text5 = "The best school is Digital School"
-var regex1 = /school/g;
+var regex1 = /school/;   //edhe me g edhe pa g bonnnn
 document.getElementById('rez5').innerHTML = text5.match(regex1)
 
 
