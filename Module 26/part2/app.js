@@ -1,6 +1,6 @@
 var wakeuptime;
 var dstime;
-var sleeptime
+var sleeptime;
 var noon = 12
 
 function showCurrentTime(){
@@ -69,3 +69,11 @@ function updateClock(){
 var saveButton = document.getElementById("saveButton")
 
 saveButton.addEventListener("click", updateClock)
+
+
+
+
+
+
+
+

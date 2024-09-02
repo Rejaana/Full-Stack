@@ -10,9 +10,7 @@ var ans = document.getElementById("answer")
 //var input1 = document.querySelector("#input1_id")
 
 
-btn2.addEventListener("click", function(){
-    ans.innerHTML = parseInt(input1.value)  + parseInt(input2.value)
-})
+
 
 button.onclick = function(){
     if(input.value > 10){
@@ -25,13 +23,12 @@ button.onclick = function(){
         text.innerHTML = "Input value is equal to 10"
      }
 
-
-
-
-
-
-
-
-
-
 }
+
+
+
+
+
+btn2.addEventListener("click", function(){
+    ans.innerHTML = parseInt(input1.value)  +  parseInt(input2.value)
+})
