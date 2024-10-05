@@ -57,21 +57,8 @@ function validate(){
         document.getElementById('city_error').style.visibility = "hidden";
         document.getElementById('city').style.borderColor = 'black';
         return true;
-
-
-
+        
     }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
